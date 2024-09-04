@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/img/gif.webp");
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #26B692;
+    margin-top: 50px;
+}
+p {
+    font-size: 16px;
+    color: #276CB7;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #0ac7b4e7;
+    border-radius: 9px;
+}
+
+dl {
+    padding: 0;
+    margin: 20px auto;
+    font-size: 28px;
+    width: 60%;
+    max-width: 400px;
+    background-color: #3D1A53;
+    border-radius: 10px;
+    text-align: left;
+    color: #276CB7;
+}
+
+dl dd {
+    margin: 10px 0;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #0ac7b4e7;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+dl dd:hover {
+    background-color: #CF82E6;
+}
+
+img  {
+    width: 400px;
+    border: 3px solid #003366;
+    margin: 20px auto;
+    display: block;
+}
